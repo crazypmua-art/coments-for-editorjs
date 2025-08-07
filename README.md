@@ -51,9 +51,7 @@ const editor = new EditorJS({
   <ul>
     <li>Fork → branch → commit → PR.</li>
   </ul>
-
-  <h2>License</h2>
-  <p>MIT. See <a href="LICENSE">LICENSE</a>.</p>
+ 
 
   <h2>Contact</h2>
   <p>Telegram: <a href="https://t.me/crazypm_ua">@crazypm_ua</a></p>
