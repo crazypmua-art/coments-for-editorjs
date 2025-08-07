@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Comments plugin for Editor.js</title>
+  <link rel="stylesheet" href="comment-plugin.css">
+</head>
+<body>
+
+  <h1 style="text-align:center">Comments plugin for Editor.js</h1>
+  <div id="editorjs"></div>
+
+  <div class="comment-popup" role="dialog" aria-modal="true">
+    <h3 id="popup-title">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square-text-icon lucide-message-square-text">
+        <path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"/>
+        <path d="M7 11h10"/>
+        <path d="M7 15h6"/>
+        <path d="M7 7h8"/>
+      </svg> 
+      Add Comment
+    </h3>
+    <div id="reply-to-info" style="display: none; background: #f8f9fa; padding: 8px; border-radius: 4px; margin-bottom: 10px; font-size: 12px; color: #6c757d;">
+      <strong>Reply to:</strong> <span id="reply-to-text"></span>
+      <button id="cancel-reply" style="float: right; background: none; border: none; color: #dc3545; cursor: pointer;">✕</button>
+    </div>
+    <textarea id="comment-text" placeholder="Add comment..."></textarea>
+    <button id="save-comment" class="btn-save">+ Add</button>
+    <button id="cancel-comment" class="btn-cancel">Cancel</button>
+  </div>
+
+  <div class="comments-sidebar">
+    <h3>Comments <span id="comments-stats"></span></h3>
+    <div id="comments-list"></div>
+  </div>
+
+  <script type="module" src="comment-plugin.js"></script>
+</body>
+</html> 
