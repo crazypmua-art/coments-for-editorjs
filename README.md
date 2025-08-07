@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Plugin README</title>
-</head>
-<body>
+ 
   <h1>Editor.js Inline Commenting Plugin</h1>
   <p>A lightweight plugin for Editor.js that brings Google Docs–style inline comments to your editor.</p>
 
@@ -22,7 +16,7 @@
   <h2>Installation</h2>
   <ol>
     <li>Clone repo:<br>
-      <code>git clone https://github.com/your-username/editorjs-inline-comments.git</code>
+      <code>git clone [https://github.com/your-username/editorjs-inline-comments.git](https://github.com/crazypmua-art/coments-for-editorjs.git)</code>
     </li>
     <li>Include files:<br>
       <code>&lt;link rel="stylesheet" href="comment-plugin.css"&gt;<br>
